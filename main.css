@@ -1,0 +1,79 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #eee;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: rebeccapurple;
+  fill-opacity: .9;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.data-line {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+  stroke-dasharray: 0;
+}
+
+path {
+  stroke: #eee;
+  stroke-width: 2;
+  stroke-dasharray: 0;
+  fill: none;
+}
+
+.area {
+    fill: lightsteelblue;
+}
+
+text {
+  font-family: Arial;
+  font-size: 8pt;
+  fill: #787878;
+}
+
+#bar text {
+  font-size: 8px;
+}
+
+line {
+  stroke: #CDCDCD;
+  stroke-width: 0.5;
+  /* stroke-dasharray: 3 3; */
+  fill: none;
+}
+
+.data-point {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: #FFF;
+}
+
+.main-chart {
+  width: 70%;
+}
+.side-charts {
+  width: 30%;
+  float: right;
+}
