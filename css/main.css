@@ -68,3 +68,8 @@ line {
 .navbar:not(.navbar-collapse) .navbar-header {
   float: right;
 }
+
+.form-group .row {
+  margin-left: 0;
+  margin-right: 0;
+}
